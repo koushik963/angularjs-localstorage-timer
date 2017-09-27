@@ -54,17 +54,17 @@ var myApp = angular.module('myApp', ['localstorage-countdown-timer'])
 
 ## Timer Functions
 ### .start()
-Stop the timer
+Starting/Resuming the timer
 
 ```html
 <button ng-click="AppTimer.start()"> Start </button>
 ```
 
 ### .stop()
-Starting/Resuming the timer.
+Stop the timer.
 
 ```html
-<button ng-click="AppTimer.start()"> Start </button>
+<button ng-click="AppTimer.stop()"> Stop </button>
 ```
 
 ### .restart()
